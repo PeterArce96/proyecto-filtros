@@ -1,4 +1,4 @@
-const autos = [
+const zapatillas = [
 	{
 		marca: 'Adidas',
 		color: 'Negro',

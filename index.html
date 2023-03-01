@@ -7,60 +7,101 @@
     <title>Filtros</title>
     <link rel="stylesheet" href="./css/index.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
 </head>
 <body class="body">
     
-    <h1>Buscador de Autos</h1>
+    <div class="filtros-container">
 
-    <div class="contenedor">
+        <h1 class="filtros-title">Buscador de Zapatillas</h1>
 
-        <form id="buscador">
-            <div class="row">
-                <div class="col">
-                    <label for="marca">Marca</label>
-                    <select name="w-100" id="marca">
-                        <option value="">Seleccione</option>
-                        <option value="Adidas">Adidas</option>
-                        <option value="Puma">Puma</option>
-                        <option value="Reebok">Reebok</option>
-                    </select>
+        <div class="filtros__container-main">
+
+            <form id="buscador" class="filtros__container-form">
+                <div class="filtros__form-row">
+                    <div class="filtros__form-select-container">
+                        <label for="marca" class="filtros__form-label">Marca</label>
+                        <select class="filtros__form-select" id="marca">
+                            <option value="">Seleccione</option>
+                            <option value="Adidas">Adidas</option>
+                            <option value="Puma">Puma</option>
+                            <option value="Reebok">Reebok</option>
+                        </select>
+                    </div>
+                    <div class="filtros__form-select-container">
+                        <label for="genero" class="filtros__form-label">Género</label>
+                        <select class="filtros__form-select" id="genero">
+                            <option value="">Seleccione</option>
+                            <option value="femenino">femenino</option>
+                            <option value="masculino">masculino</option>
+                        </select>
+                    </div>
+                    <div class="filtros__form-select-container">
+                        <label for="color" class="filtros__form-label">Color</label>
+                        <select class="filtros__form-select" id="color">
+                            <option value="">Seleccione</option>
+                            <option value="Blanco">Blanco</option>
+                            <option value="Negro">Negro</option>
+                            <option value="Rojo">Rojo</option>
+                            <option value="Plomo">Plomo</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="col">
-                    <label for="color">Color</label>
-                    <select name="w-100" id="color">
-                        <option value="">Seleccione</option>
-                        <option value="Blanco">Blanco</option>
-                        <option value="Negro">Negro</option>
-                        <option value="Rojo">Rojo</option>
-                        <option value="Plomo">Plomo</option>
-                    </select>
+                <div class="filtros__form-row">
+                    <div class="filtros__form-select-container">
+                        <label for="talla" class="filtros__form-label">Talla</label>
+                        <select class="filtros__form-select" id="talla">
+                            <option value="">Seleccione</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                        </select>
+                    </div>
+                    <div class="filtros__form-select-container">
+                        <label for="minimo" class="filtros__form-label">Precio Min</label>
+                        <select class="filtros__form-select" id="minimo">
+                            <option value="">Seleccione</option>
+                            <option value="170">170</option>
+                            <option value="180">180</option>
+                            <option value="190">190</option>
+                            <option value="200">200</option>
+                            <option value="210">210</option>
+                            <option value="220">220</option>
+                            <option value="230">230</option>
+                            <option value="240">240</option>
+                            <option value="250">250</option>
+                        </select>
+                    </div>
+                    <div class="filtros__form-select-container">
+                        <label for="maximo" class="filtros__form-label">Precio Max</label>
+                        <select class="filtros__form-select" id="maximo">
+                            <option value="">Seleccione</option>
+                            <option value="170">170</option>
+                            <option value="180">180</option>
+                            <option value="190">190</option>
+                            <option value="200">200</option>
+                            <option value="210">210</option>
+                            <option value="220">220</option>
+                            <option value="230">230</option>
+                            <option value="240">240</option>
+                            <option value="250">250</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="col">
-                    <label for="talla">Talla</label>
-                    <select name="w-100" id="talla">
-                        <option value="">Seleccione</option>
-                        <option value="35">35</option>
-                        <option value="36">36</option>
-                        <option value="37">37</option>
-                        <option value="38">38</option>
-                        <option value="39">39</option>
-                        <option value="40">40</option>
-                        <option value="41">41</option>
-                        <option value="42">42</option>
-                        <option value="43">43</option>
-                        <option value="44">44</option>
-                    </select>
-                </div>
-            </div>
-        </form>
+            </form>
 
+        </div>
 
-        <h1>Resultados</h1>
+        <h1 class="filtros__resultados-title">Resultados</h1>
         <div id="resultado"></div>
+    
     </div>
-
     <script src="./js/index.js"></script>
     <script src="./js/db.js"></script>
 

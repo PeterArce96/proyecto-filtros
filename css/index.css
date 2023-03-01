@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);
+
+}
+.filtros-container{
+    max-width: 1024px;
+    margin: 2rem auto;
+}
+.filtros-title{
+    margin: 0 0 2rem;
+    text-align: center;
+}
+.filtros__container-main{
+    padding: 1rem;
+    margin: 0 0 2rem;
+}
+.filtros__container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.filtros__form-row{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.filtros__form-select-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.filtros__form-label{
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.1rem;
+
+}
+.filtros__form-select{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 15rem;
+    height: 2.2rem;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 0.5rem;
+}
+.filtros__resultados-title{
+    text-align: center;
+    margin: 0 0 2rem;
+}
+
+#resultado p {
+    padding: 2rem;
+    margin: 0;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+}
+
+
+.alerta {
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5rem;
+}
+.error {
+    background-color: red;
+}
+
+@media (min-width: 854px){
+    .filtros__form-row{
+        flex-direction: row;
+    }
+    .filtros__container-form{
+        gap: 4rem;
+    }
+    #resultado p {
+        font-size: 1.1rem;
+    }
+    .filtros__form-select{
+        font-size: 1.2rem;
+        width: 16rem;
+    }
+}
