@@ -299,4 +299,91 @@ const autos = [
 		genero: 'masculino'
 	},
 
+	{
+		marca: 'Reebok',
+		color: 'Negro',
+		talla: 41,
+		precio: 219,
+		genero: 'masculino'
+	},
+    {
+		marca: 'Reebok',
+		color: 'Blanco',
+		talla: 41,
+		precio: 219,
+		genero: 'masculino'
+	},
+	{
+		marca: 'Reebok',
+		color: 'Negro',
+		talla: 42,
+		precio: 219,
+		genero: 'masculino'
+	},
+    {
+		marca: 'Reebok',
+		color: 'Blanco',
+		talla: 42,
+		precio: 219,
+		genero: 'masculino'
+	},
+	{
+		marca: 'Reebok',
+		color: 'Negro',
+		talla: 43,
+		precio: 229,
+		genero: 'masculino'
+	},
+    {
+		marca: 'Reebok',
+		color: 'Blanco',
+		talla: 43,
+		precio: 229,
+		genero: 'masculino'
+	},
+
+	{
+		marca: 'Reebok',
+		color: 'Negro',
+		talla: 36,
+		precio: 179,
+		genero: 'femenino'
+	},
+    {
+		marca: 'Reebok',
+		color: 'Blanco',
+		talla: 36,
+		precio: 179,
+		genero: 'femenino'
+	},
+	{
+		marca: 'Reebok',
+		color: 'Negro',
+		talla: 37,
+		precio: 179,
+		genero: 'femenino'
+	},
+    {
+		marca: 'Reebok',
+		color: 'Blanco',
+		talla: 37,
+		precio: 179,
+		genero: 'femenino'
+	},
+	{
+		marca: 'Reebok',
+		color: 'Negro',
+		talla: 38,
+		precio: 189,
+		genero: 'femenino'
+	},
+    {
+		marca: 'Reebok',
+		color: 'Blanco',
+		talla: 38,
+		precio: 189,
+		genero: 'femenino'
+	},
+	
+
 ];
